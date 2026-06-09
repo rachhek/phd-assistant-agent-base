@@ -1,0 +1,27 @@
+{
+  "name": "researcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mcp_server.ts",
+  "scripts": {
+    "start": "tsx mcp_server.ts",
+    "process": "tsx .claude/skills/process/scripts/process.tsx",
+    "process:meta": "tsx .claude/skills/process/scripts/process.tsx --metadata",
+    "build-index": "tsx scripts/build-index.tsx",
+    "eval": "tsx evals/run.tsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@llamaindex/liteparse": "^2.0.5",
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "devDependencies": {
+    "@tobilu/qmd": "^2.5.3",
+    "@types/node": "^25.9.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
