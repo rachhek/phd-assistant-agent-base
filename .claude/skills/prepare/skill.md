@@ -14,3 +14,5 @@ Run the setup script to get the repo ready. Safe to re-run at any time.
    ```
 
 2. Report the output. If `.env` was just created from the example, remind the user to fill in their API credentials before using `/process --metadata`.
+
+3. Check if qmd index is available, if not please create it over the either one of the following folders: parsed , papers_parsed.
