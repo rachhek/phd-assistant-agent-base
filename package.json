@@ -8,7 +8,8 @@
     "process": "tsx .claude/skills/process/scripts/process.tsx",
     "process:meta": "tsx .claude/skills/process/scripts/process.tsx --metadata",
     "build-index": "tsx scripts/build-index.tsx",
-    "eval": "tsx evals/run.tsx"
+    "eval": "tsx evals/run.tsx",
+    "setup": "tsx .claude/skills/prepare/scripts/setup.sh"
   },
   "keywords": [],
   "author": "",
