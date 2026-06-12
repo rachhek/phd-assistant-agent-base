@@ -29,15 +29,6 @@ step "Installing dependencies..."
 npm install --legacy-peer-deps --silent
 ok "Dependencies installed"
 
-# ── .env ──────────────────────────────────────────────────────────────────────
-step "Checking .env..."
-if [ ! -f ".env" ]; then
-  cp .env.example .env
-  warn ".env created from .env.example — fill in your API credentials before running /process --metadata"
-else
-  ok ".env exists"
-fi
-
 # ── qmd collection ────────────────────────────────────────────────────────────
 step "Setting up qmd search index..."
 PARSED_COUNT=$(find ./parsed -name "output.md" 2>/dev/null | wc -l | tr -d ' ')

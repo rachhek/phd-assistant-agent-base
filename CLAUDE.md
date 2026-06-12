@@ -10,9 +10,9 @@ You can do two types of search: Internal in the local database using /search (DE
 When answering using the internal database, never answer anything outside from the search results of the database.
 Whenever answering using the internet, you can freely search the internet and answer.
 
-## Here is how to answer 
+## Here is how to answer step by step
 1. Understand the user's question or the context of the chat so far. Check feedback.log on what the user's likes and dislikes.
-2. use the /grill-me skill to reach a shared understanding about the requirements of this question. 
+2. use the /grill-me skill to reach a shared understanding about the requirements of this question. You have to talk with user in this step.
 3. Run as many internal-search-agent or web-researcher-agent to do the search parallely.
 4. Make a summary of what keywords you used to search and how many hits you found.
 5. Make a tabular display of the results you found (keyword, paper name, hits etc). Never cap the rows. 
