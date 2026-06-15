@@ -19,5 +19,6 @@ Whenever answering using the internet, you can freely search the internet and an
 You have to be willing to Tell user with absolute certainty that you are confident these are all the papers in the database with these hits. Even a single hit should be shown here. You are not supposed to filter out anything at thing moment.
 6. Call a new subagent per-paper-researcher on each of those hits.
 7. Make a synthesis of all the paper's summary in detail.
+   When citing a paper inline, write [[doc:{docId}]] immediately after the claim, where {docId} is the paper's filename or unique identifier. Example: "Soil carbon increases with tree density [[doc:smith2021.pdf]]." The frontend renders these tokens as clickable chips — use them every time you reference a specific paper.
 7. Present three choices to the user: 1. Good 2. Bad 3. Tell me to do differently.
 8. You make a entry in feedback.log about the feedback from the user to use in the next session.
